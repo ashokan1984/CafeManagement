@@ -14,8 +14,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetailSystemBackEnd_UnitTest", "RetailSystemBackEnd_UnitTest\RetailSystemBackEnd_UnitTest.csproj", "{DF67F108-E5DA-43ED-9AB0-727EEC7BE26A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeManagement.Application", "CafeManagement.Application\CafeManagement.Application.csproj", "{D7F33F4A-FE2C-42FC-9188-7B41D02149A7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CafeManagement.Domain", "CafeManagement.Domain\CafeManagement.Domain.csproj", "{47694965-DEDD-4B40-B418-16E05E00111F}"
@@ -30,10 +28,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF67F108-E5DA-43ED-9AB0-727EEC7BE26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF67F108-E5DA-43ED-9AB0-727EEC7BE26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF67F108-E5DA-43ED-9AB0-727EEC7BE26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF67F108-E5DA-43ED-9AB0-727EEC7BE26A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D7F33F4A-FE2C-42FC-9188-7B41D02149A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D7F33F4A-FE2C-42FC-9188-7B41D02149A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7F33F4A-FE2C-42FC-9188-7B41D02149A7}.Release|Any CPU.ActiveCfg = Release|Any CPU

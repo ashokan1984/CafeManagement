@@ -2,7 +2,7 @@
 
 namespace CafeManagement.WebAPI.Controllers.Base
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[Action]")]
     [ApiController]
     public abstract class BaseController : ControllerBase
     {
