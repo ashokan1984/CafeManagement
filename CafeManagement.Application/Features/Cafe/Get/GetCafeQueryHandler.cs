@@ -11,7 +11,7 @@ public sealed class GetCafeQueryHandler(ICafeRepository cafeRepository, IMapper 
     {
         List<Domain.Entities.Cafe> cafes = string.IsNullOrEmpty(request.Location)
             ? await cafeRepository.GetAllNoTracking(includes => includes.Employees.Where(s => true))
-            : await cafeRepository.GetAllNoTracking(x => x.Location == request.Location, includes => includes.Employees.Where(s => true));
+            : await cafeRepository.Get(x => x.Location == request.Location, includes => includes.Employees.Where(s => true));
         return mapper.Map<List<GetCafeQueryResponse>>(cafes);
     }
 }

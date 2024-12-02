@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace CafeManagement.Application.Features.Employee.Get
+namespace CafeManagement.Application.Features.Employee.Get.GetByCafeId
 {
     public class GetEmployeeQueryMapper : Profile
     {

@@ -4,6 +4,7 @@ namespace CafeManagement.Application.Features.Employee.Get
 {
     public record class GetEmployeeQueryResponse
     {
+        public Guid Id { get; set; }
         public string EmployeeId { get; set; }
         public string Name { get; set; }
         public string EmailAddress { get; set; }
